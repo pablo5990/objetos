@@ -1,0 +1,106 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body { 
+    font-family: sans-serif;
+    background: #f4f4f4; 
+}
+
+.contenedor { 
+    width: 90%;
+    max-width: 1000px;
+    margin: auto; 
+}
+
+header { 
+    background: #1d1f20;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 4px solid #007acc;
+}
+
+header h1 span {
+    color: #007acc;
+}
+
+nav { 
+    float: right;
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.activo {
+    color: #00aaff;
+}
+
+.boletin {
+    background: #2c2c2c;
+    color: #fff;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.boletin h2 { 
+    float: left;
+}
+
+.boletin form {
+    float: right;
+}
+
+.boletin input {
+    padding: 6px;
+}
+
+.boletin button {
+    background: #e8491d;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 30px 0;
+}
+.principal {
+    flex: 2;
+}
+aside {
+    flex: 1;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 700px;
+}
+
+article {
+    background: #eaeaea;
+    padding: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+
+}
+
+
+
+footer {
+    background: #0091ea;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: -300px;
+    margin-left: 200px;
+    display: flexbox;
+    margin-left: -220px;
+}
